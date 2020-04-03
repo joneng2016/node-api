@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "killall -9 node && node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/joneng2016/node-api/issues"
   },
-  "homepage": "https://github.com/joneng2016/node-api#readme"
+  "homepage": "https://github.com/joneng2016/node-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "node-gyp": "^6.1.0",
+    "require-dir": "^1.2.0"
+  }
 }
